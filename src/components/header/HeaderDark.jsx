@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 import {
   FiHome,
   FiUser,
-  FiSettings,
   FiGrid,
-  FiCast,
   FiPhoneOutgoing,
 } from "react-icons/fi";
 
@@ -40,9 +38,7 @@ const Header = () => {
                 items={[
                   "home",
                   "about",
-                  "service",
                   "portfolio",
-                  "news",
                   "contact",
                 ]}
                 currentClassName="current"
@@ -61,35 +57,15 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#service">
-                    <span className="first">Service</span>
-                    <span className="second">Service</span>
-                  </a>
-                </li>
-                <li>
                   <a href="#portfolio">
                     <span className="first">Portfolio</span>
                     <span className="second">Portfolio</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#news">
-                    <span className="first">News</span>
-                    <span className="second">News</span>
-                  </a>
-                </li>
-                <li>
                   <a href="#contact">
                     <span className="first">Contact</span>
                     <span className="second">Contact</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
-                    <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
-                    </span>
                   </a>
                 </li>
               </Scrollspy>
@@ -102,7 +78,7 @@ const Header = () => {
       <div className="mobile-menu-wrapper">
         <Scrollspy
           className="mobile_menu-icon"
-          items={["home", "about", "service", "portfolio", "news", "contact"]}
+          items={["home", "about", "portfolio", "contact"]}
           currentClassName="current"
           offset={-65}
         >
@@ -119,21 +95,9 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#service">
-              <FiSettings />
-              <span>Serivce</span>
-            </a>
-          </li>
-          <li>
             <a href="#portfolio">
               <FiGrid />
               <span>Portfolio</span>
-            </a>
-          </li>
-          <li>
-            <a href="#news">
-              <FiCast />
-              <span>News</span>
             </a>
           </li>
           <li>
