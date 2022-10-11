@@ -48,7 +48,7 @@ const SliderDarkAnimation = () => {
                   strings={["Développeur Front", "Intégrateur"]}
                   smartBackspace
                   shuffle={false}
-                  backDelay={1}
+                  backDelay={1000}
                   fadeOut={false}
                   fadeOutDelay={100}
                   loopCount={0}
