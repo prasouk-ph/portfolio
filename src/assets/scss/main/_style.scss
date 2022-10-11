@@ -437,8 +437,8 @@ body.dark .loader_line:after {
       color: #000;
     }
     ul li.current a {
-      color: #f52225;
-      border-color: #f52225 !important;
+      color: #61D9FA;
+      border-color: #61D9FA !important;
     }
     .light-img {
       display: none;
@@ -449,8 +449,8 @@ body.dark .loader_line:after {
     ul li:last-child a {
       border-color: #555;
       &:hover {
-        border-color: #f52225;
-        color: #f52225;
+        border-color: #61D9FA;
+        color: #61D9FA;
       }
     }
   }
@@ -480,10 +480,10 @@ body.dark .loader_line:after {
   }
 }
 .beny_tm_topbar ul li:last-child:hover a {
-  border-color: #f52225;
+  border-color: #61D9FA;
 }
 .beny_tm_topbar ul li:last-child.current a {
-  border-color: #f52225;
+  border-color: #61D9FA;
 }
 .beny_tm_topbar ul li .first,
 .social ul li .first {
@@ -512,7 +512,7 @@ body.dark .loader_line:after {
   display: block;
 }
 .beny_tm_topbar ul li.current a {
-  color: #f52225;
+  color: #61D9FA;
 }
 .beny_tm_topbar ul li.current a .first {
   transform: translateY(-150%);
@@ -522,7 +522,7 @@ body.dark .loader_line:after {
   transform: translateY(-50%);
 }
 .beny_tm_topbar ul li a:hover {
-  color: #f52225;
+  color: #61D9FA;
 }
 
 /*---------------------------------------------------*/
@@ -780,7 +780,7 @@ body.dark .loader_line:after {
 }
 
 .beny_tm_hero .content .job span {
-  color: #f52225;
+  color: #61D9FA;
 }
 .beny_tm_hero .content .text {
   margin-bottom: 30px;
@@ -824,7 +824,7 @@ body.dark .loader_line:after {
       color: #555;
       transition: 0.3s;
       &:hover {
-        color: #f52225;
+        color: #61D9FA;
       }
     }
   }
@@ -862,8 +862,8 @@ body.dark .loader_line:after {
 }
 .beny_tm_button button {
   &.color {
-    border-color: #f52225;
-    background: #f52225;
+    border-color: #61D9FA;
+    background: #61D9FA;
     color: #fff;
     span {
       color: #fff;
@@ -894,16 +894,16 @@ body.dark .loader_line:after {
 }
 .beny_tm_button.color a {
   color: #fff;
-  background-color: #f52225;
-  border-color: #f52225;
+  background-color: #61D9FA;
+  border-color: #61D9FA;
 }
 .beny_tm_button.color a:hover {
   color: #fff;
 }
 .beny_tm_button a:hover,
 .beny_tm_button button:hover {
-  color: #f52225;
-  border-color: #f52225;
+  color: #61D9FA;
+  border-color: #61D9FA;
 }
 .beny_tm_contact .beny_tm_button a {
   padding: 10px 40px;
@@ -933,7 +933,7 @@ body.dark .loader_line:after {
   transition: all 0.3s ease;
 }
 .beny_tm_hero .social ul li a:hover {
-  color: #f52225;
+  color: #61D9FA;
 }
 
 /*---------------------------------------------------*/
@@ -958,7 +958,7 @@ body.dark .loader_line:after {
 .beny_tm_title_holder span {
   display: inline-block;
   position: relative;
-  color: #f52225;
+  color: #61D9FA;
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 12px;
@@ -968,7 +968,7 @@ body.dark .loader_line:after {
   content: "";
   width: 40px;
   height: 1px;
-  background-color: #f52225;
+  background-color: #61D9FA;
   top: 50%;
   transform: translateY(-50%);
   left: 100%;
@@ -1029,7 +1029,7 @@ body.dark .loader_line:after {
   font-size: 18px;
   margin-bottom: 22px;
   .theme-color {
-    color: #f52225;
+    color: #61D9FA;
   }
 }
 .beny_tm_about .short p {
@@ -1093,7 +1093,7 @@ body.dark .loader_line:after {
       transition: 0.3s;
       &:hover {
         transform: translateY(-5px);
-        color: #f52225;
+        color: #61D9FA;
       }
     }
   }
@@ -1208,7 +1208,7 @@ body.dark .loader_line:after {
 }
 .progress_inner .background .bar_in {
   height: 100%;
-  background: #f52225;
+  background: #61D9FA;
   overflow: hidden;
   border-radius: 18px;
 }
@@ -1228,7 +1228,7 @@ body.dark .loader_line:after {
     text-decoration: none;
     &:hover {
       text-decoration: underline;
-      color: #f52225;
+      color: #61D9FA;
     }
   }
 }
@@ -1340,7 +1340,7 @@ body.dark .loader_line:after {
 .beny_tm_services ul li .svg {
   width: 50px;
   height: 50px;
-  color: #f52225;
+  color: #61D9FA;
   margin-bottom: 25px;
   fill: none;
 }
@@ -1416,14 +1416,14 @@ body.dark .loader_line:after {
 }
 .beny_tm_services ul li .list_inner:hover .learn_more span {
   width: 30px;
-  background-color: #f52225;
+  background-color: #61D9FA;
 }
 .beny_tm_services ul li .list_inner:hover .learn_more span:before,
 .beny_tm_services ul li .list_inner:hover .learn_more span:after {
-  background-color: #f52225;
+  background-color: #61D9FA;
 }
 .beny_tm_services ul li .list_inner:hover .learn_more {
-  color: #f52225;
+  color: #61D9FA;
 }
 .beny_tm_full_link {
   position: absolute;
@@ -1620,7 +1620,7 @@ body.dark .loader_line:after {
       visibility: visible;
     }
     h3 {
-      color: #f52225;
+      color: #61D9FA;
     }
   }
 }
@@ -1729,7 +1729,7 @@ body.dark .loader_line:after {
     }
     transition: 0.3s;
     &.react-tabs__tab--selected {
-      color: #f52225;
+      color: #61D9FA;
     }
   }
 }
@@ -1891,7 +1891,7 @@ body.dark .loader_line:after {
   content: "";
   width: 100px;
   height: 2px;
-  background-color: #f52225;
+  background-color: #61D9FA;
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
@@ -1939,8 +1939,8 @@ body.dark .loader_line:after {
   }
 }
 .beny_tm_testimonials .slick-arrow:hover {
-  border-color: #f52225;
-  background-color: #f52225;
+  border-color: #61D9FA;
+  background-color: #61D9FA;
 }
 .beny_tm_testimonials .slick-prev {
   left: 0px;
@@ -2084,7 +2084,7 @@ body.dark .loader_line:after {
   transition: all 0.3s ease;
 }
 .beny_tm_news ul li .details span a:hover {
-  color: #f52225;
+  color: #61D9FA;
 }
 .beny_tm_news ul li .details span a:before {
   position: relative;
@@ -2104,7 +2104,7 @@ body.dark .loader_line:after {
   transition: all 0.3s ease;
 }
 .beny_tm_news ul li .details .title:hover {
-  color: #f52225;
+  color: #61D9FA;
 }
 .beny_tm_modalbox_service .description_wrap::-webkit-scrollbar,
 .beny_tm_modalbox_news .description_wrap::-webkit-scrollbar {
@@ -2245,7 +2245,7 @@ body.modal {
   font-size: 20px;
   font-style: italic;
   margin-bottom: 23px;
-  border-left: 2px solid #f52225;
+  border-left: 2px solid #61D9FA;
   padding-left: 30px;
   color: #000;
 }
@@ -2299,7 +2299,7 @@ body.modal {
   }
 }
 .beny_tm_modalbox_news .news_share ul li a:hover svg {
-  color: #f52225;
+  color: #61D9FA;
 }
 .beny_tm_modalbox_news .news_share ul li .svg {
   width: 15px;
@@ -2411,7 +2411,7 @@ body.modal {
 }
 .contact_form {
   .invalid-feedback {
-    color: #f52225;
+    color: #61D9FA;
     text-align: left;
     font-weight: 400;
     font-size: 14px;
@@ -2456,14 +2456,14 @@ body.modal {
   background-color: transparent;
 }
 .beny_tm_contact .empty_notice {
-  color: #f52225;
+  color: #61D9FA;
   margin-bottom: 7px;
   display: none;
   text-align: left;
   font-weight: 500;
 }
 .beny_tm_contact .contact_error {
-  color: #f52225;
+  color: #61D9FA;
   text-align: left;
   font-weight: 500;
 }
@@ -2497,7 +2497,7 @@ body.modal {
 .beny_tm_totop {
   position: relative;
   overflow: hidden;
-  background-color: #f52225;
+  background-color: #61D9FA;
   padding: 22px;
   border-radius: 3px;
   display: inline-block;
@@ -2534,7 +2534,7 @@ body.modal {
   width: 6px;
   height: 6px;
   z-index: 100;
-  background-color: #f52225;
+  background-color: #61D9FA;
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
@@ -2545,7 +2545,7 @@ body.modal {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #f52225;
+  background-color: #61D9FA;
   opacity: 0.3;
 }
 .cursor-outer {
@@ -2553,7 +2553,7 @@ body.modal {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #f52225;
+  border: 2px solid #61D9FA;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
@@ -2737,7 +2737,7 @@ body.modal {
   line-height: 45px;
   text-transform: initial;
   .theme-color {
-    color: #f52225;
+    color: #61D9FA;
   }
 }
 .beny_tm_intro_wrapper .go_purchase h6 {
@@ -2769,7 +2769,7 @@ body.modal {
   transition: all 0.3s ease;
 }
 .beny_tm_intro_wrapper .intro_copyright p a:hover {
-  color: #f52225;
+  color: #61D9FA;
 }
 body.intro #preloader:before,
 body.intro #preloader:after {
@@ -3058,7 +3058,7 @@ body.intro .loader_line:after {
   height: 35px;
   position: relative;
   display: inline-block;
-  background: #f52225;
+  background: #61D9FA;
   border-radius: 50%;
   animation: down 1s linear infinite;
   -webkit-animation: down 1s linear infinite;
@@ -3115,9 +3115,9 @@ body.intro .loader_line:after {
       font-size: 13px;
     }
     &.react-tabs__tab--selected {
-      border-color: #f52225;
+      border-color: #61D9FA;
       color: #fff;
-      background: #f52225;
+      background: #61D9FA;
     }
   }
 }
@@ -3206,7 +3206,7 @@ body.intro .loader_line:after {
   margin: 0;
 }
 .resume-box-01 h4 label {
-  color: #f52225;
+  color: #61D9FA;
 }
 .resume-box-01 h5 {
   color: #000;
@@ -3280,7 +3280,7 @@ body.intro .loader_line:after {
       }
       &.current {
         a {
-          color: #f52225 !important;
+          color: #61D9FA !important;
         }
       }
     }
@@ -3342,7 +3342,7 @@ body.intro .loader_line:after {
 
 .typer {
   margin-bottom: 20px;
-  color: #f52225;
+  color: #61D9FA;
   font-weight: 600;
 }
 
@@ -3361,7 +3361,7 @@ body.intro .loader_line:after {
 }
 .sticker {
   position: absolute;
-  background: #f52225;
+  background: #61D9FA;
   color: #fff;
   line-height: 1;
   padding: 5px 15px;
