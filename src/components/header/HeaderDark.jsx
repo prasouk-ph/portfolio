@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
-import { Link } from "react-router-dom";
 import {
   FiHome,
   FiUser,
@@ -27,11 +26,6 @@ const Header = () => {
       <div className={navbar ? "beny_tm_topbar animate" : "beny_tm_topbar"}>
         <div className="in">
           <div className="topbar_inner">
-            <div className="logo">
-              <Link to="/">
-                <img src="img/logo/light.png" alt="brand" />
-              </Link>
-            </div>
             <div className="menu">
               <Scrollspy
                 className="anchor_nav"

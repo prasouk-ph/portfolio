@@ -389,6 +389,7 @@ body.dark .loader_line:after {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .beny_tm_topbar .logo img {
   max-width: 90px;
