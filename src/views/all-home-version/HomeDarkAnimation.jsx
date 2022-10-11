@@ -12,20 +12,6 @@ const HomeDarkAnimation = () => {
   document.body.classList.add("dark");
   return (
     <div className="home-light">
-      <div
-        className="demo-fixed-wrapper"
-        data-aos="fade-left"
-        data-aos-duration="1200"
-        data-aos-delay="50"
-      >
-        <button className="demo-button">
-          <Link to="/">
-            <span className="text">Demos</span>
-          </Link>
-        </button>
-      </div>
-      {/* demo show wrapper  */}
-
       <Header />
       {/* End Header */}
 
@@ -35,8 +21,8 @@ const HomeDarkAnimation = () => {
       <div className="beny_tm_about" id="about">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>About Me</span>
-            <h2>About Me</h2>
+            <span>A propos de moi</span>
+            <h2>A propos de moi</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
@@ -54,10 +40,9 @@ const HomeDarkAnimation = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Portfolio</span>
-            <h2>My Portfolio</h2>
+            <h2>Mon Portfolio</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              Mes projets réalisés avec React.JS durant ma formation.
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -77,7 +62,7 @@ const HomeDarkAnimation = () => {
             >
               <div className="beny_tm_title_holder">
                 <span>Contact</span>
-                <h2>Let's discuss your project</h2>
+                <h2>Parlons de votre projet</h2>
               </div>
               <div className="short_list">
                 <Address />
@@ -93,9 +78,9 @@ const HomeDarkAnimation = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                  Je suis ouvert à toute
                   <br />
-                  <span>design work or partnerships.</span>
+                  <span>opportunité.</span>
                 </p>
               </div>
               <div className="fields">

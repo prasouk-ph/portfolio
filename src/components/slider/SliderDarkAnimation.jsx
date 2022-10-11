@@ -31,7 +31,7 @@ const SliderDarkAnimation = () => {
         <div className="content">
           <div className="content_inner">
             <h3 className="name" data-aos="fade-up" data-aos-duration="1200">
-              Hi! I'm Astro
+              Bonjour ! Je suis Prasouk
             </h3>
             <h1
               className="job"
@@ -44,7 +44,7 @@ const SliderDarkAnimation = () => {
                   loop
                   typeSpeed={150}
                   backSpeed={60}
-                  strings={[" Visual Artist", "Designer", "Developer"]}
+                  strings={["Développeur Front-End"]}
                   smartBackspace
                   shuffle={false}
                   backDelay={1}
@@ -55,7 +55,7 @@ const SliderDarkAnimation = () => {
                   cursorChar="|"
                 />
               </span>
-              <br /> <span>Based In California.</span>
+              <br /> <span>Basé en Île-de-France.</span>
             </h1>
             <p
               className="text"
@@ -85,8 +85,8 @@ const SliderDarkAnimation = () => {
             >
               <a className="anchor" href="#about">
                 <span className="wrapper">
-                  <span className="first">See Portfolio</span>
-                  <span className="second">See Portfolio</span>
+                  <span className="first">Voir mon Portfolio</span>
+                  <span className="second">Voir mon Portfolio</span>
                 </span>
               </a>
             </div>

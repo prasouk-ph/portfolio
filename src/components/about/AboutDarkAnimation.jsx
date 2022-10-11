@@ -25,10 +25,10 @@ const AboutDarkAnimation = () => {
           data-aos-delay="50"
         >
           <div className="short">
-            <h3>I'm Bany Astro</h3>
+            <h3>Je suis Prasouk PHOUBANDITH</h3>
             <h5>
-              A Lead <span className="theme-color">Visual Artist </span>
-              based in <span className="theme-color">California</span>
+              Un <span className="theme-color">Développeur Front-End </span>
+              basé en <span className="theme-color">Île-de-France</span>
             </h5>
             <p>
               I design and develop services for customers specializing creating
@@ -38,47 +38,37 @@ const AboutDarkAnimation = () => {
             </p>
           </div>
           <div className="extra">
-            <h3 className="title">Personal Info</h3>
+            <h3 className="title">Informations personnelles</h3>
             <div className="list">
               <ul>
                 <li>
                   <p>
-                    <span>Name :</span> Bany Jara
+                    <span>Nom :</span> Prasouk PHOUBANDITH
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Address :</span> H-400 - Path2UK
+                    <span>Adresse :</span> Bussy-Saint-Georges
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Age :</span> 21 Years
+                    <span>Age :</span> 31 ans
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Phone :</span> +12345667
+                    <span>Phone :</span> 07 89 70 77 77
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Nationality :</span> USA
+                    <span>Nationalité :</span> Française
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Email :</span> yourmail@gmail.com
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Freelance :</span> Available
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Languages :</span> French, English
+                    <span>Email :</span> prasouk.ph@gmail.com
                   </p>
                 </li>
               </ul>
@@ -87,8 +77,8 @@ const AboutDarkAnimation = () => {
             <div className="beny_tm_button color-outline">
               <a href="img/about/cv.webp" download>
                 <span className="wrapper">
-                  <span className="first">Download CV</span>
-                  <span className="second">Download CV</span>
+                  <span className="first">Téléchargez mon CV</span>
+                  <span className="second">Téléchargez mon CV</span>
                 </span>
               </a>
             </div>

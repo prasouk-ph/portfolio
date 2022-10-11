@@ -103,12 +103,12 @@ const SkillsAnimation = () => {
     <>
       <div className="beny_tm_resume">
         <div className="main_title">
-          <h3>My Experience</h3>
+          <h3>Mon Expérience</h3>
         </div>
         <Tabs>
           <TabList className="tab_list">
-            <Tab> Education & Skills</Tab>
-            <Tab>Experience</Tab>
+            <Tab> Etudes & Compétences</Tab>
+            <Tab>Expérience</Tab>
           </TabList>
           <TabPanel>
             <div className="resume_inner">
@@ -121,7 +121,7 @@ const SkillsAnimation = () => {
                   <div className="education ">
                     <div className="edu_list">
                       <h4>
-                        <label>Education</label>
+                        <label>Etudes</label>
                       </h4>
                       <ul>
                         {educationContent.map((val, i) => (
@@ -146,7 +146,7 @@ const SkillsAnimation = () => {
                 >
                   <div className="skills ">
                     <h4>
-                      <label>Skills</label>
+                      <label>Compétences</label>
                     </h4>
                     <div className="beny_progress">
                       {skillsContent.map((val, i) => (
@@ -179,7 +179,7 @@ const SkillsAnimation = () => {
                   <div className="education ">
                     <div className="edu_list">
                       <h4>
-                        <label>Awards</label>
+                        <label>Prix</label>
                       </h4>
                       <ul>
                         {awardContent.map((val, i) => (

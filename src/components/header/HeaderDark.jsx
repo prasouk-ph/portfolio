@@ -46,14 +46,14 @@ const Header = () => {
               >
                 <li className="current">
                   <a href="#home">
-                    <span className="first">Home</span>
-                    <span className="second">Home</span>
+                    <span className="first">Accueil</span>
+                    <span className="second">Accueil</span>
                   </a>
                 </li>
                 <li>
                   <a href="#about">
-                    <span className="first">About</span>
-                    <span className="second">About</span>
+                    <span className="first">A propos</span>
+                    <span className="second">A propos</span>
                   </a>
                 </li>
                 <li>
@@ -85,13 +85,13 @@ const Header = () => {
           <li>
             <a href="#home">
               <FiHome />
-              <span>Home</span>
+              <span>Accueil</span>
             </a>
           </li>
           <li>
             <a href="#about">
               <FiUser />
-              <span>About</span>
+              <span>A propos</span>
             </a>
           </li>
           <li>

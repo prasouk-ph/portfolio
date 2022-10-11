@@ -20,10 +20,10 @@ const Contact = () => {
           <input
             {...register("name", { required: true })}
             type="text"
-            placeholder="Name *"
+            placeholder="Nom *"
           />
           {errors.name && errors.name.type === "required" && (
-            <span className="invalid-feedback">Name is required</span>
+            <span className="invalid-feedback">Votre nom est requis</span>
           )}
         </div>
         {/* End .first_row */}
@@ -34,10 +34,10 @@ const Contact = () => {
               {...register(
                 "email",
                 {
-                  required: "Email is Required",
+                  required: "Votre email est requis",
                   pattern: {
                     value: /\S+@\S+\.\S+/,
-                    message: "Entered value does not match email format",
+                    message: "Le mail n'est pas valide",
                   },
                 },
                 { required: true }
@@ -52,10 +52,10 @@ const Contact = () => {
           <div className="right">
             <input
               {...register("subject", { required: true })}
-              placeholder="Subject *"
+              placeholder="Sujet *"
             />
             {errors.subject && (
-              <span className="invalid-feedback">Subject is required.</span>
+              <span className="invalid-feedback">Le sujet est requis.</span>
             )}
           </div>
         </div>
@@ -67,7 +67,7 @@ const Contact = () => {
             placeholder="Message *"
           ></textarea>
           {errors.message && (
-            <span className="invalid-feedback">Message is required.</span>
+            <span className="invalid-feedback">Un message est requis.</span>
           )}
         </div>
         {/* End .third */}
@@ -75,8 +75,8 @@ const Contact = () => {
         <div className="beny_tm_button">
           <button type="submit" className="color">
             <span className="wrapper">
-              <span className="first">Submit</span>
-              <span className="second">Submit</span>
+              <span className="first">Envoyer</span>
+              <span className="second">Envoyer</span>
             </span>
           </button>
         </div>
