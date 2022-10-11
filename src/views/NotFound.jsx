@@ -15,7 +15,7 @@ const NotFound = () => {
             404!
           </h1>
           <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50">
-            The page you are looking for could not be found.
+            La page n'a pas pu être trouvée.
           </p>
 
           <div
@@ -26,8 +26,8 @@ const NotFound = () => {
           >
             <Link to="/">
               <span class="wrapper">
-                <span class="first">BACK TO HOME</span>
-                <span class="second">BACK TO HOME</span>
+                <span class="first">RETOUR A L'ACCUEIL</span>
+                <span class="second">RETOUR A L'ACCUEIL</span>
               </span>
             </Link>
           </div>
