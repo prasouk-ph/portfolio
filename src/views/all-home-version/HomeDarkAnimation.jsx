@@ -60,7 +60,7 @@ const HomeDarkAnimation = () => {
             >
               <div className="beny_tm_title_holder">
                 <span>Contact</span>
-                <h2>Parlons de votre projet</h2>
+                <h2>Vous voulez me joindre ?</h2>
               </div>
               <div className="short_list">
                 <Address />
@@ -74,13 +74,6 @@ const HomeDarkAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="150"
             >
-              <div className="title">
-                <p>
-                  Je suis ouvert à toute
-                  <br />
-                  <span>opportunité.</span>
-                </p>
-              </div>
               <div className="fields">
                 <Contact />
               </div>
