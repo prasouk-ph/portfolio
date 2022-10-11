@@ -43,9 +43,9 @@ const SliderDarkAnimation = () => {
               <span className="typer-toper">
                 <ReactTyped
                   loop
-                  typeSpeed={150}
+                  typeSpeed={80}
                   backSpeed={60}
-                  strings={["Développeur Front", "Intégrateur"]}
+                  strings={["Développeur Front", "Intégrateur Web"]}
                   smartBackspace
                   shuffle={false}
                   backDelay={1000}
