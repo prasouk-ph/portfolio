@@ -44,7 +44,7 @@ const SliderDarkAnimation = () => {
                   loop
                   typeSpeed={150}
                   backSpeed={60}
-                  strings={["Développeur Front-End"]}
+                  strings={["Développeur Front-End", "Intégrateur"]}
                   smartBackspace
                   shuffle={false}
                   backDelay={1}

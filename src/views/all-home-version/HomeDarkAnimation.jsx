@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../../components/header/HeaderDark";
 import Slider from "../../components/slider/SliderDarkAnimation";
 import About from "../../components/about/AboutDarkAnimation";
