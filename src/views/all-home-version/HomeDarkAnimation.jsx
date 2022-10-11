@@ -4,7 +4,6 @@ import Slider from "../../components/slider/SliderDarkAnimation";
 import About from "../../components/about/AboutDarkAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
 import Contact from "../../components/Contact";
-import Footer from "../../components/footer/Footer";
 import Address from "../../components/Address";
 
 const HomeDarkAnimation = () => {
