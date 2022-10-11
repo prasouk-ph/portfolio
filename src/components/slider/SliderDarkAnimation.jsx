@@ -2,6 +2,7 @@ import React from "react";
 import Social from "../Social";
 import SocialTwo from "../SocialTwo";
 import ReactTyped from "react-typed";
+import portrait from "../../assets/portrait.png"
 
 const SliderDarkAnimation = () => {
   return (
@@ -12,7 +13,7 @@ const SliderDarkAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/7.jpg"
+              process.env.PUBLIC_URL + portrait
             })`,
           }}
         ></div>
@@ -44,7 +45,7 @@ const SliderDarkAnimation = () => {
                   loop
                   typeSpeed={150}
                   backSpeed={60}
-                  strings={["Développeur Front-End", "Intégrateur"]}
+                  strings={["Développeur Front", "Intégrateur"]}
                   smartBackspace
                   shuffle={false}
                   backDelay={1}

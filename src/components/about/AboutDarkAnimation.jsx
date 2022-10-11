@@ -1,19 +1,20 @@
 import React from "react";
 import Skills from "../skills/SkillsAnimation";
+import portrait from "../../assets/portrait.png"
 
 const AboutDarkAnimation = () => {
   return (
     <>
       <div className="about_inner">
         <div className="left">
-          <img src="img/thumbs/1-1.jpg" alt="" />
+          <img src={portrait} alt="portrait" />
           <div
-            className="image"
+            className="image portrait"
             data-aos="fade-right"
             data-aos-duration="1200"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/7.jpg"
+                process.env.PUBLIC_URL + portrait
               })`,
             }}
           ></div>
