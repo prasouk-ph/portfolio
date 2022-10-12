@@ -73,14 +73,16 @@ body.dark .beny_tm_about .short h3 {
 body.dark .beny_tm_about .extra .title {
   color: #fff;
 }
-body.dark .beny_tm_about .list ul li p {
-  color: #fff;
-}
+// body.dark .beny_tm_about .list ul li p {
+//   color: #fff;
+// }
 body.dark .beny_tm_about .short {
   border-bottom-color: #a9afc3;
 }
 body.dark .beny_tm_about .list ul li p span {
   color: #a9afc3;
+  display: flex;
+  align-items: center;
 }
 body.dark .beny_tm_button.color a {
   border-color: #61D9FA;

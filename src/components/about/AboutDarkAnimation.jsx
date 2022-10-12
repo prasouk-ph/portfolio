@@ -2,6 +2,13 @@ import React from "react";
 // import Skills from "../skills/SkillsAnimation";
 import portrait from "../../assets/portrait.png"
 // import Social from "../Social"
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaSass
+} from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 
 const AboutDarkAnimation = () => {
   return (
@@ -44,37 +51,32 @@ const AboutDarkAnimation = () => {
             </div> */}
           </div>
           <div className="extra">
-            <h3 className="title">Informations personnelles</h3>
+            <h3 className="title">Ma stack</h3>
             <div className="list">
               <ul>
                 <li>
                   <p>
-                    <span>Nom :</span> Prasouk PHOUBANDITH
+                    <span className="react-icon"><FaReact /></span> React.JS
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Adresse :</span> Bussy-Saint-Georges
+                    <span className="js-icon"><SiJavascript /></span> Javascript
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Age :</span> 31 ans
+                    <span className="html-icon"><FaHtml5 /></span> HTML5
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Phone :</span> 07 89 70 77 77
+                    <span className="css-icon"><FaCss3Alt /></span> CSS3
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Nationalité :</span> Française
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Email :</span> prasouk.ph@gmail.com
+                    <span className="sass-icon"><FaSass /></span> Sass
                   </p>
                 </li>
               </ul>

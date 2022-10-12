@@ -1056,13 +1056,30 @@ body.dark .loader_line:after {
   padding-left: 20px;
 }
 .beny_tm_about .list ul li p {
-  color: #0f172a;
+  // color: #0f172a;
   font-size: 16px;
   font-weight: 500;
+  display: flex;
+  gap: 10px;
 }
 .beny_tm_about .list ul li p span {
   color: #6e6e6e;
   font-weight: 400;
+}
+body.dark .beny_tm_about .list ul li p .react-icon {
+  color: #61D9FA;
+}
+body.dark .beny_tm_about .list ul li p .js-icon {
+  color: #F6DF1C;
+}
+body.dark .beny_tm_about .list ul li p .html-icon {
+  color: #E44C27;
+}
+body.dark .beny_tm_about .list ul li p .css-icon {
+  color: #0270B9;
+}
+body.dark .beny_tm_about .list ul li p .sass-icon {
+  color: #CD6698;
 }
 .about_social {
   margin-top: 20px;
