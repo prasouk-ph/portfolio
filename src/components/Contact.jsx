@@ -9,24 +9,29 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data, e) => {
+  const onSubmit = async (data, e) => {
     const templateParams = {
       name: data.name,
       email: data.email,
       subject: data.subject,
       message: data.message
-  };
+    };
 
-    e.target.reset();
-
-    emailjs.send('contact_service_prasouk','contact_form_prasouk', templateParams, 'ITZ9P1DRI_r-UFkZf')
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-      }, (err) => {
-        console.log('FAILED...', err);
-      });
-    
-    console.log("Message submited: " + JSON.stringify(data));
+    try {
+      const response = await emailjs.send('contact_service_prasouk', 'contact_form_prasouk', templateParams, 'ITZ9P1DRI_r-UFkZf')
+  
+      if (response.ok) { // opposite behavior with !response.ok
+        throw new Error(
+          `This is an HTTP error: The status is ${response.status}`
+        )
+      } else {
+        e.target.reset();
+        console.log("Message submited: " + JSON.stringify(data));
+      }
+    }
+    catch (error) {
+      console.log(error, "email could not be sent")
+    }
   };
 
   return (
