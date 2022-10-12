@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const {
@@ -9,7 +10,22 @@ const Contact = () => {
   } = useForm();
 
   const onSubmit = (data, e) => {
+    const templateParams = {
+      name: data.name,
+      email: data.email,
+      subject: data.subject,
+      message: data.message
+  };
+
     e.target.reset();
+
+    emailjs.send('contact_service_prasouk','contact_form_prasouk', templateParams, 'ITZ9P1DRI_r-UFkZf')
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      }, (err) => {
+        console.log('FAILED...', err);
+      });
+    
     console.log("Message submited: " + JSON.stringify(data));
   };
 
