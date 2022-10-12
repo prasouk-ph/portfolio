@@ -1,6 +1,7 @@
 import React from "react";
-import Skills from "../skills/SkillsAnimation";
+// import Skills from "../skills/SkillsAnimation";
 import portrait from "../../assets/portrait.png"
+// import Social from "../Social"
 
 const AboutDarkAnimation = () => {
   return (
@@ -37,6 +38,10 @@ const AboutDarkAnimation = () => {
               passion is to design digital user experiences through meaningful
               interactions. Check out my Portfolio
             </p>
+
+            {/* <div className="social">
+              <Social />
+            </div> */}
           </div>
           <div className="extra">
             <h3 className="title">Informations personnelles</h3>
@@ -86,7 +91,7 @@ const AboutDarkAnimation = () => {
           </div>
         </div>
       </div>
-      <Skills />
+      {/* <Skills /> */}
     </>
   );
 };
