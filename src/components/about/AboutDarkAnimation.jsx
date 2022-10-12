@@ -75,14 +75,14 @@ const AboutDarkAnimation = () => {
               </ul>
             </div>
             {/* End list */}
-            <div className="beny_tm_button color-outline">
+            {/* <div className="beny_tm_button color-outline">
               <a href="img/about/cv.webp" download>
                 <span className="wrapper">
                   <span className="first">Téléchargez mon CV</span>
                   <span className="second">Téléchargez mon CV</span>
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
