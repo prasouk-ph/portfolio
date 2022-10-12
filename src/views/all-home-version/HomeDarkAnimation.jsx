@@ -4,7 +4,7 @@ import Slider from "../../components/slider/SliderDarkAnimation";
 import About from "../../components/about/AboutDarkAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
 import Contact from "../../components/Contact";
-import Address from "../../components/Address";
+// import Social from "../../components/Social";
 
 const HomeDarkAnimation = () => {
   document.body.classList.add("dark");
@@ -55,20 +55,24 @@ const HomeDarkAnimation = () => {
           <div className="contact_inner">
             <div
               className="left"
-              data-aos="fade-right"
+              data-aos="fade-left"
               data-aos-duration="1200"
             >
               <div className="beny_tm_title_holder">
                 <span>Contact</span>
                 <h2>Vous voulez me joindre ?</h2>
               </div>
-              <div className="short_list">
-                <Address />
+              {/* <div className="short_list">
+                <Social />
+              </div> */}
+
+              <div className="fields">
+                <Contact />
               </div>
             </div>
             {/* End .left */}
 
-            <div
+            {/* <div
               className="right"
               data-aos="fade-right"
               data-aos-duration="1200"
@@ -77,7 +81,7 @@ const HomeDarkAnimation = () => {
               <div className="fields">
                 <Contact />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

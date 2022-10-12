@@ -55,7 +55,7 @@ const Contact = () => {
               placeholder="Sujet *"
             />
             {errors.subject && (
-              <span className="invalid-feedback">Le sujet est requis.</span>
+              <span className="invalid-feedback">Le sujet est requis</span>
             )}
           </div>
         </div>
@@ -67,7 +67,7 @@ const Contact = () => {
             placeholder="Message *"
           ></textarea>
           {errors.message && (
-            <span className="invalid-feedback">Un message est requis.</span>
+            <span className="invalid-feedback">Un message est requis</span>
           )}
         </div>
         {/* End .third */}
