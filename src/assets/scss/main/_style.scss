@@ -858,6 +858,9 @@ body.dark .loader_line:after {
     }
   }
 }
+.beny_tm_button_form {
+  width: 100%;
+}
 .beny_tm_button a .first,
 .beny_tm_button button .first {
   display: block;
@@ -2374,7 +2377,7 @@ body.modal {
 }
 
 .beny_tm_contact .fields {
-  width: 100%;
+  width: 90%;
   height: auto;
   clear: both;
   float: left;
@@ -2399,7 +2402,7 @@ body.modal {
 }
 .beny_tm_contact .third {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -2860,6 +2863,9 @@ body.intro .loader_line:after {
   .beny_tm_button a {
     font-size: 16px;
     padding: 7px 30px;
+  }
+  .beny_tm_button_form {
+    color: red;
   }
   .beny_tm_title_holder h2 {
     font-size: 50px;

@@ -56,27 +56,27 @@ const AboutDarkAnimation = () => {
               <ul>
                 <li>
                   <p>
-                    <span className="react-icon"><FaReact /></span> React.JS
+                    <span><FaReact /></span> React.JS
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span className="js-icon"><SiJavascript /></span> Javascript
+                    <span><SiJavascript /></span> Javascript
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span className="html-icon"><FaHtml5 /></span> HTML5
+                    <span><FaHtml5 /></span> HTML5
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span className="css-icon"><FaCss3Alt /></span> CSS3
+                    <span><FaCss3Alt /></span> CSS3
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span className="sass-icon"><FaSass /></span> Sass
+                    <span><FaSass /></span> Sass
                   </p>
                 </li>
               </ul>

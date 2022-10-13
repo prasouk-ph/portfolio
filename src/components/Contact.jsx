@@ -136,7 +136,7 @@ const Contact = () => {
         {/* End .third */}
 
         <div className="beny_tm_button">
-          <button type="submit" className="color">
+          <button type="submit" className="color beny_tm_button_form">
             <span className="wrapper">
               <span className="first">Envoyer</span>
               <span className="second">Envoyer</span>
