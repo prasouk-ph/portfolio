@@ -2,21 +2,40 @@ import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
-import screenshot from '../../assets/p12-screen.png'
+import screenP11 from '../../assets/p11-screen.png'
+import screenP12 from '../../assets/p12-screen.png'
+import screenP13 from '../../assets/p13-screen.png'
+import screenP14 from '../../assets/p14-screen.png'
 import Item from "./Item/Item";
 
 const portfolioContent = [
   {
-    title: 'p12',
-    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
-    github: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
-    picture: screenshot
+    title: 'Argent Bank',
+    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_13_15042022",
+    github: "https://github.com/prasouk-ph/PrasoukPhoubandith_13_15042022",
+    description: "Un projet avec comme fonctionnalité un système d'authentification mis en place à l'aide de redux et firebase",
+    picture: screenP13
   },
   {
-    title: 'p13',
+    title: 'SportSee',
     link: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
-    picture: screenshot
+    description: "Un projet consistant à réaliser des graphiques à l'aide de Recharts",
+    picture: screenP12
+  },
+  {
+    title: 'Kasa',
+    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_11_22022022",
+    github: "https://github.com/prasouk-ph/PrasoukPhoubandith_11_22022022",
+    description: "Ma 1ère prise en main React, 1er pas avec le state pour réaliser un caroussel et un menu accordéon",
+    picture: screenP11
+  },
+  {
+    title: 'HRNet',
+    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_14_02052022",
+    github: "https://github.com/prasouk-ph/PrasoukPhoubandith_14_02052022",
+    description: "Un prototype permettant la gestion des employés. Ma mission était la création d'une modale mais aussi sa publication sur npm. J'en ai profité pour faire persister certaines données avec Firebase et mettre en place le formulaire à l'aide de React Hook Form",
+    picture: screenP14
   }
 ]
 
@@ -28,16 +47,7 @@ const Portfolio = () => {
       <div className="portfolio_list">
         <ul className="gallery_zoom">
           {portfolioContent.map((project, index) => 
-            <Item title={project.title} link={project.link} github={project.github} picture={project.picture} key={index} />
-            // <li data-aos={index % 2 === 1 ? "fade-right" : "fade-left"} data-aos-duration="1200">
-            //   <a className="gallery_item" href={project.link} target="_blank" rel="noopener noreferrer">
-            //     <img className="gallery_item_img" src={project.image} alt="screen" />
-
-            //     <div className="gallery_item_description">
-            //       <p>description</p>
-            //     </div>
-            //   </a>
-            // </li>
+            <Item title={project.title} link={project.link} github={project.github} description={project.description} picture={project.picture} key={index} />
           )}
 
 

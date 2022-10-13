@@ -1731,7 +1731,9 @@ body.dark .loader_line:after {
 }
 .gallery_item {
   position: relative;
+  display: block;
 }
+// gallery_item_overlay
 .gallery_item_img {
   border-radius: 5px;
 }
@@ -1740,7 +1742,32 @@ body.dark .loader_line:after {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  // left: 30px;
+  left: 0px;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+  // transition-property: ease-in;
+  // transition-duration: 4s;
+  // transition-delay: 2s;
+  // opacity: 0;
+}
+// .gallery_item_description:hover {
+//   transition: opacity 1s;
+// }
+.gallery_item_description h2 {
+  font-size: x-large;
+  text-transform: uppercase;
+}
+.gallery_item_description_github_link {
+  color: white;
+  // z-index: 3;
 }
 /*---------------------------------------------------*/
 /*	09) BENY TESTIMONIALS
