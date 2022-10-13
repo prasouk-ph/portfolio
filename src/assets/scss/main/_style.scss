@@ -1729,6 +1729,19 @@ body.dark .loader_line:after {
     }
   }
 }
+.gallery_item {
+  position: relative;
+}
+.gallery_item_img {
+  border-radius: 5px;
+}
+.gallery_item_description {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 /*---------------------------------------------------*/
 /*	09) BENY TESTIMONIALS
 /*---------------------------------------------------*/

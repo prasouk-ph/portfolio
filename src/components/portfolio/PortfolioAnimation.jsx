@@ -2,6 +2,23 @@ import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
+import screenshot from '../../assets/p12-screen.png'
+import Item from "./Item/Item";
+
+const portfolioContent = [
+  {
+    title: 'p12',
+    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
+    github: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
+    picture: screenshot
+  },
+  {
+    title: 'p13',
+    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
+    github: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
+    picture: screenshot
+  }
+]
 
 const Portfolio = () => {
   const [isOpen, setOpen] = useState(false);
@@ -10,6 +27,22 @@ const Portfolio = () => {
     <SimpleReactLightbox>
       <div className="portfolio_list">
         <ul className="gallery_zoom">
+          {portfolioContent.map((project, index) => 
+            <Item title={project.title} link={project.link} github={project.github} picture={project.picture} key={index} />
+            // <li data-aos={index % 2 === 1 ? "fade-right" : "fade-left"} data-aos-duration="1200">
+            //   <a className="gallery_item" href={project.link} target="_blank" rel="noopener noreferrer">
+            //     <img className="gallery_item_img" src={project.image} alt="screen" />
+
+            //     <div className="gallery_item_description">
+            //       <p>description</p>
+            //     </div>
+            //   </a>
+            // </li>
+          )}
+
+
+
+
           <ModalVideo
             channel="youtube"
             autoplay
