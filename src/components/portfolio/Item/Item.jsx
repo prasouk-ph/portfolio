@@ -5,7 +5,6 @@ const Item = ({title, link, github, description, picture, index}) => {
   
   return (
     <li
-      key={index}
       data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
       data-aos-duration="1200"
       onMouseEnter={() => setHover(true)}
@@ -17,7 +16,7 @@ const Item = ({title, link, github, description, picture, index}) => {
       {isHover && 
       <div className="gallery_item_description">
         <h2>{title}</h2>
-        <p>{description}</p>
+            <p>{description + index}</p>
         {/* <p className="gallery_item_description_github_link" href={github}>Accéder au repo</p> */}
       </div>
       }

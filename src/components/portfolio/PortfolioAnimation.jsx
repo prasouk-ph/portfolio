@@ -47,7 +47,7 @@ const Portfolio = () => {
       <div className="portfolio_list">
         <ul className="gallery_zoom">
           {portfolioContent.map((project, index) => 
-            <Item title={project.title} link={project.link} github={project.github} description={project.description} picture={project.picture} key={index} />
+            <Item title={project.title} link={project.link} github={project.github} description={project.description} picture={project.picture} index={index} key={index} />
           )}
 
 
