@@ -16,7 +16,7 @@ const Item = ({title, link, github, description, picture, index}) => {
       {isHover && 
       <div className="gallery_item_description">
         <h2>{title}</h2>
-            <p>{description + index}</p>
+            <p>{description}</p>
         {/* <p className="gallery_item_description_github_link" href={github}>Accéder au repo</p> */}
       </div>
       }
