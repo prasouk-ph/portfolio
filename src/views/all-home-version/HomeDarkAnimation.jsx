@@ -4,6 +4,7 @@ import Slider from "../../components/slider/SliderDarkAnimation";
 import About from "../../components/about/AboutDarkAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
 import Contact from "../../components/Contact";
+import Footer from "../../components/footer/Footer";
 // import Social from "../../components/Social";
 
 const HomeDarkAnimation = () => {
@@ -86,6 +87,14 @@ const HomeDarkAnimation = () => {
         </div>
       </div>
       {/* /CONTACT */}
+
+      {/* FOOTER */}
+      <div className="beny_tm_copyright">
+        <div className="container">
+          <Footer />
+        </div>
+      </div>
+      {/* /FOOTER */}
     </div>
   );
 };

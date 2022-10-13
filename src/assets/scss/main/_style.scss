@@ -2491,7 +2491,7 @@ body.modal {
   clear: both;
   float: left;
   background-color: #202329;
-  padding: 30px 0px;
+  padding: 15px 0px;
 }
 .beny_tm_copyright .inner {
   width: 100%;
@@ -2519,6 +2519,16 @@ body.modal {
   top: 14px;
   left: 17px;
   z-index: 2;
+}
+.beny_tm_copyright .social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.beny_tm_copyright .social_icon {
+  color: white;
 }
 
 /*---------------------------------------------------*/
