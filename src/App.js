@@ -18,6 +18,12 @@ const App = () => {
         outerAlpha={0.3}
         innerScale={0.7}
         outerScale={1.2}
+        outerStyle={{
+          zIndex:1001
+        }}
+        innerStyle={{
+          zIndex:1001
+        }}
       />
       <ScrollToTop />
       <Routes />

@@ -1,6 +1,31 @@
 import React from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
+import Modal from 'react-modal';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    backgroundColor: '#282C34',
+    border: 'none',
+    color: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '20px'
+  },
+  overlay: {
+    zIndex: 1000,
+    backgroundColor: 'rgba(30, 30, 30, 0.7)'
+  }
+};
+
 
 const Contact = () => {
   const {
@@ -8,6 +33,18 @@ const Contact = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState("Le message a bien été envoyé ! 👍");
+  Modal.setAppElement(document.getElementById('root'));
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   const onSubmit = async (data, e) => {
     const templateParams = {
@@ -20,7 +57,9 @@ const Contact = () => {
     try {
       const response = await emailjs.send('contact_service_prasouk', 'contact_form_prasouk', templateParams, 'ITZ9P1DRI_r-UFkZf')
   
-      if (response.ok) { // opposite behavior with !response.ok
+      if (response.status.ok) { // opposite behavior with !response.ok
+        setModalMessage("Le message n'a pas pu être envoyé ! 😣")
+
         throw new Error(
           `This is an HTTP error: The status is ${response.status}`
         )
@@ -31,6 +70,9 @@ const Contact = () => {
     }
     catch (error) {
       console.log(error, "email could not be sent")
+    }
+    finally {
+      openModal()
     }
   };
 
@@ -104,6 +146,19 @@ const Contact = () => {
         {/* End tokyo_tm_button */}
       </form>
       {/* End contact */}
+
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        shouldCloseOnOverlayClick={true}
+        shouldCloseOnEsc={true}
+        shouldReturnFocusAfterClose={false}
+        style={customStyles}
+        contentLabel="Form Confirmation Modal"
+      >
+        <p>{modalMessage}</p>
+        <button className="modal-button" onClick={closeModal}>Fermer</button>
+      </Modal>
     </>
   );
 };
