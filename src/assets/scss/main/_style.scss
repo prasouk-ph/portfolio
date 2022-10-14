@@ -1753,14 +1753,13 @@ body.dark .loader_line:after {
   justify-content: space-around;
   padding: 20px;
   text-align: center;
-  // transition-property: ease-in;
-  // transition-duration: 4s;
-  // transition-delay: 2s;
-  // opacity: 0;
+  opacity: 0;
 }
-// .gallery_item_description:hover {
-//   transition: opacity 1s;
-// }
+.gallery_item_description:hover {
+    transition: 0.4s;
+    opacity: 1;
+
+}
 .gallery_item_description h2 {
   font-size: x-large;
   text-transform: uppercase;
