@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-const Item = ({title, link, github, description, picture, index}) => {
+const Item = ({title, link, github, description, picture}) => {
   const [isHover, setHover] = useState(false);
   
   return (
     <li
-      data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+      data-aos="fade-left"
       data-aos-duration="1200"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}

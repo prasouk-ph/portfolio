@@ -25,14 +25,14 @@ const portfolioContent = [
   },
   {
     title: 'Kasa',
-    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_11_22022022",
+    link: "https://singular-sorbet-50d60b.netlify.app",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_11_22022022",
     description: "Ma 1ère prise en main React, 1er pas avec le state pour réaliser un caroussel et un menu accordéon",
     picture: screenP11
   },
   {
     title: 'HRNet',
-    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_14_02052022",
+    link: "https://zippy-rabanadas-8a0aa2.netlify.app",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_14_02052022",
     description: "Un prototype permettant la gestion des employés. Ma mission était la création d'une modale mais aussi sa publication sur npm. J'en ai profité pour faire persister certaines données avec Firebase et mettre en place le formulaire à l'aide de React Hook Form",
     picture: screenP14
@@ -47,7 +47,7 @@ const Portfolio = () => {
       <div className="portfolio_list">
         <ul className="gallery_zoom">
           {portfolioContent.map((project, index) => 
-            <Item title={project.title} link={project.link} github={project.github} description={project.description} picture={project.picture} index={index} key={index} />
+            <Item title={project.title} link={project.link} github={project.github} description={project.description} picture={project.picture} key={index} />
           )}
 
 
