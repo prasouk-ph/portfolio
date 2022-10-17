@@ -19,7 +19,7 @@ const Item = ({title, link, github, description, picture}) => {
 
         {isHover && 
         <div className="gallery_item_description">
-          <h2 data-aos="fade-left" data-aos-duration="1000">{title}</h2>
+          <h2 className="gallery_item_description_title" data-aos="fade-left" data-aos-duration="1000">{title}</h2>
           <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">{description}</p>
           <p className="gallery_item_description_github_link" onClick={handleOnClick} data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Accéder au repo</p>
         </div>

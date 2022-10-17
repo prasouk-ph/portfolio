@@ -10,7 +10,7 @@ const portfolioContent = [
     title: 'Argent Bank',
     link: "https://github.com/prasouk-ph/PrasoukPhoubandith_13_15042022",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_13_15042022",
-    description: "Un projet avec comme fonctionnalité un système d'authentification mis en place à l'aide de redux et firebase",
+    description: "Un projet avec comme fonctionnalité un système d'authentification mis en place à l'aide de redux",
     picture: screenP13
   },
   {
@@ -31,7 +31,7 @@ const portfolioContent = [
     title: 'HRNet',
     link: "https://zippy-rabanadas-8a0aa2.netlify.app",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_14_02052022",
-    description: "Un prototype permettant la gestion des employés. Ma mission était la création d'une modale mais aussi sa publication sur npm. J'en ai profité pour faire persister certaines données avec Firebase et mettre en place le formulaire à l'aide de React Hook Form",
+    description: "Un prototype permettant la gestion des employés. Ma mission était la création d'une modale mais aussi sa publication sur npm. Données persistantes avec Firebase et mis en place du formulaire à l'aide de React Hook Form",
     picture: screenP14
   }
 ]
