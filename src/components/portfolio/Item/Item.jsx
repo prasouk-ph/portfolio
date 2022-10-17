@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 
 const Item = ({title, link, github, description, picture}) => {
-  const [isHover, setHover] = useState(false);
+  const [isHover, setHover] = useState(true);
+
+  function handleOnClick() {
+    window.open(github, '_blank')
+  }
   
   return (
     <li
@@ -13,13 +17,13 @@ const Item = ({title, link, github, description, picture}) => {
       <a className="gallery_item" href={link} target="_blank" rel="noopener noreferrer">
         <img className="gallery_item_img" src={picture} alt="screen" />
 
-      {isHover && 
-      <div className="gallery_item_description">
-        <h2>{title}</h2>
-            <p>{description}</p>
-        {/* <p className="gallery_item_description_github_link" href={github}>Accéder au repo</p> */}
-      </div>
-      }
+        {isHover && 
+        <div className="gallery_item_description">
+          <h2 data-aos="fade-left" data-aos-duration="1000">{title}</h2>
+          <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">{description}</p>
+          <p className="gallery_item_description_github_link" onClick={handleOnClick} data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Accéder au repo</p>
+        </div>
+        }
       </a>
     </li>
   );

@@ -1754,19 +1754,22 @@ body.dark .loader_line:after {
   padding: 20px;
   text-align: center;
   opacity: 0;
+  overflow: hidden;
 }
 .gallery_item_description:hover {
     transition: 0.4s;
     opacity: 1;
-
 }
 .gallery_item_description h2 {
   font-size: x-large;
   text-transform: uppercase;
 }
+.gallery_item_description p {
+  text-overflow: ellipsis;
+}
 .gallery_item_description_github_link {
   color: white;
-  // z-index: 3;
+  text-decoration: underline;
 }
 /*---------------------------------------------------*/
 /*	09) BENY TESTIMONIALS
