@@ -40,10 +40,9 @@ const AboutDarkAnimation = () => {
               basé en <span className="theme-color">Île-de-France</span>
             </h5>
             <p>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences through meaningful
-              interactions. Check out my Portfolio
+              Durant mes années dans le commerce, j’ai pu développer mon sens de l'organisation et de l’optimisation mais aussi ma pédagogie. <br /> <br />
+En constante quête de progression, j’ai découvert que le développement m’offrirait plus de possibilités pour mettre à profit mes qualités. <br /> <br />
+Je me lance à présent en temps que développeur React afin de proposer des solutions pouvant répondre au mieux à tous les besoins.
             </p>
 
             {/* <div className="social">

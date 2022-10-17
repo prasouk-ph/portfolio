@@ -8,14 +8,17 @@ import Item from "./Item/Item";
 const portfolioContent = [
   {
     title: 'Argent Bank',
-    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_13_15042022",
+    link: "https://glittering-dodol-63a237.netlify.app",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_13_15042022",
-    description: "Un projet avec comme fonctionnalité un système d'authentification mis en place à l'aide de redux",
+    description: `Un projet avec comme fonctionnalité un système d'authentification mis en place à l'aide de redux.
+    Pour se connecter : 
+    email: tony@stark.com
+    mot de passe: password123`,
     picture: screenP13
   },
   {
     title: 'SportSee',
-    link: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
+    link: "https://merry-swan-fad262.netlify.app",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
     description: "Un projet consistant à réaliser des graphiques à l'aide de Recharts",
     picture: screenP12

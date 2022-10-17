@@ -23,8 +23,7 @@ const HomeDarkAnimation = () => {
             <span>A propos de moi</span>
             <h2>A propos de moi</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              Après plus de 5 ans dans le commerce de la téléphonie. J'ai décidé de me reconvertir en tant que développeur Front-end.
             </p>
           </div>
           {/* End .beny_tm_title */}

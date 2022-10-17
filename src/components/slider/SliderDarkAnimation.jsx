@@ -54,7 +54,7 @@ const SliderDarkAnimation = () => {
                   cursorChar="|"
                 />
               </span>
-              <br /> <span>Basé en Île-de-France.</span>
+              <br /> <span>Basé en Île-de-France</span>
             </h1>
             <p
               className="text"
@@ -62,9 +62,7 @@ const SliderDarkAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              I'm developer focused on crafting user‑friendly experiences, I am
-              passionate about building excellent software that improves the
-              lives of those around me.
+              Un développeur qui accorde autant d'importance à la manière qu'au résultat.
             </p>
 
             <div
