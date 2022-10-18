@@ -5,7 +5,6 @@ import About from "../../components/about/AboutDarkAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
 import Contact from "../../components/Contact";
 import Footer from "../../components/footer/Footer";
-// import Social from "../../components/Social";
 
 const HomeDarkAnimation = () => {
   document.body.classList.add("dark");
@@ -62,26 +61,12 @@ const HomeDarkAnimation = () => {
                 <span>Contact</span>
                 <h2>Vous voulez me joindre ?</h2>
               </div>
-              {/* <div className="short_list">
-                <Social />
-              </div> */}
 
               <div className="fields">
                 <Contact />
               </div>
             </div>
             {/* End .left */}
-
-            {/* <div
-              className="right"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="150"
-            >
-              <div className="fields">
-                <Contact />
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

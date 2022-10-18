@@ -1,7 +1,5 @@
 import React from "react";
-// import Skills from "../skills/SkillsAnimation";
 import portrait from "../../assets/portrait.png"
-// import Social from "../Social"
 import {
   FaReact,
   FaHtml5,
@@ -44,10 +42,6 @@ const AboutDarkAnimation = () => {
 En constante quête de progression, j’ai découvert que le développement m’offrirait plus de possibilités pour mettre à profit mes qualités. <br /> <br />
 Je me lance à présent en temps que développeur React afin de proposer des solutions pouvant répondre au mieux à tous les besoins.
             </p>
-
-            {/* <div className="social">
-              <Social />
-            </div> */}
           </div>
           <div className="extra">
             <h3 className="title">Ma stack</h3>
@@ -81,14 +75,6 @@ Je me lance à présent en temps que développeur React afin de proposer des sol
               </ul>
             </div>
             {/* End list */}
-            {/* <div className="beny_tm_button color-outline">
-              <a href="img/about/cv.webp" download>
-                <span className="wrapper">
-                  <span className="first">Téléchargez mon CV</span>
-                  <span className="second">Téléchargez mon CV</span>
-                </span>
-              </a>
-            </div> */}
           </div>
         </div>
       </div>

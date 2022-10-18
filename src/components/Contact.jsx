@@ -65,11 +65,11 @@ const Contact = () => {
         )
       } else {
         e.target.reset();
-        console.log("Message submited: " + JSON.stringify(data));
+        // console.log("Message submited: " + JSON.stringify(data));
       }
     }
     catch (error) {
-      console.log(error, "email could not be sent")
+      // console.log(error, "email could not be sent")
     }
     finally {
       openModal()
