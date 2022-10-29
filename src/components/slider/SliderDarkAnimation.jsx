@@ -1,6 +1,6 @@
 import React from "react";
 import ReactTyped from "react-typed";
-import portrait from "../../assets/portrait.png"
+import portrait from "../../assets/souk-008.png"
 
 const SliderDarkAnimation = () => {
   return (
@@ -12,7 +12,8 @@ const SliderDarkAnimation = () => {
           style={{
             backgroundImage: `url(${
               process.env.PUBLIC_URL + portrait
-            })`,
+              })`,
+            backgroundSize: "50%"
           }}
         ></div>
         <div className="overlay"></div>
