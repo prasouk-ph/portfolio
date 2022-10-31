@@ -721,7 +721,7 @@ body.dark .loader_line:after {
   left: 0px;
   right: 0px;
   background-repeat: no-repeat;
-  // background-size: cover;
+  background-size: contain;
   background-position: right;
 }
 .beny_tm_hero .background .overlay {
@@ -988,19 +988,15 @@ body.dark .loader_line:after {
 }
 .beny_tm_about .about_inner .left .image {
   position: absolute;
-  top: -45%;
+  top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   background-repeat: no-repeat;
-  // background-size: cover;
   background-size: cover;
   background-position: center;
   border-radius: 8px;
 }
-// .beny_tm_about .about_inner .left .portrait {
-//   transform: rotateY(180deg);
-// }
 .beny_tm_about .about_inner .right {
   width: 50%;
   padding-left: 50px;

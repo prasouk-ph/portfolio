@@ -13,7 +13,6 @@ const SliderDarkAnimation = () => {
             backgroundImage: `url(${
               process.env.PUBLIC_URL + portrait
               })`,
-            backgroundSize: "50%"
           }}
         ></div>
         <div className="overlay"></div>
