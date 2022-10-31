@@ -10,14 +10,14 @@ const portfolioContent = [
     title: 'Argent Bank',
     link: "https://imaginative-puffpuff-ec7361.netlify.app",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_13_15042022",
-    description: `Un projet avec comme fonctionnalité un système d'authentification mis en place à l'aide de redux.`,
+    description: `Un projet avec comme fonctionnalité un système d'authentification mis en place à l'aide de redux ou de useContext.`,
     picture: screenP13
   },
   {
     title: 'SportSee',
     link: "https://singular-cajeta-fa6f5b.netlify.app",
     github: "https://github.com/prasouk-ph/PrasoukPhoubandith_12_04032022",
-    description: "Un projet consistant à réaliser des graphiques à l'aide de Recharts",
+    description: "Un projet consistant à réaliser des graphiques à l'aide de Recharts tout en sécurisant les props avec PropTypes",
     picture: screenP12
   },
   {
