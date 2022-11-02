@@ -1,6 +1,6 @@
 import React from "react";
 import ReactTyped from "react-typed";
-import portrait from "../../assets/souk-008.png"
+import portrait from "../../assets/souk-black4.png"
 
 const SliderDarkAnimation = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "../../assets/souk-001.png"
+import portrait from "../../assets/souk_black_with_background.png"
 import {
   FaReact,
   FaHtml5,
