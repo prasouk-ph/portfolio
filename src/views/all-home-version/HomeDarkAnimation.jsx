@@ -19,8 +19,8 @@ const HomeDarkAnimation = () => {
       <div className="beny_tm_about" id="about">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>A propos de moi</span>
-            <h2>A propos de moi</h2>
+            <span>À propos de moi</span>
+            <h2>À propos de moi</h2>
             <p>
               Après plus de 5 ans dans le commerce de la téléphonie. J'ai décidé de me reconvertir en tant que développeur Front-end.
             </p>

@@ -46,8 +46,8 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#about">
-                    <span className="first">A propos</span>
-                    <span className="second">A propos</span>
+                    <span className="first">À propos</span>
+                    <span className="second">À propos</span>
                   </a>
                 </li>
                 <li>
@@ -85,7 +85,7 @@ const Header = () => {
           <li>
             <a href="#about">
               <FiUser />
-              <span>A propos</span>
+              <span>À propos</span>
             </a>
           </li>
           <li>

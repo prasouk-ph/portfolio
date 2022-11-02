@@ -35,6 +35,8 @@ const portfolioContent = [
     picture: screenP14
   }
 ]
+// screen format: 702 x 135
+// picture format: 1956 x 1830
 
 const Portfolio = () => {
   return (
